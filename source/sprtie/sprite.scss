@@ -1,0 +1,261 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$badoo-name: 'badoo';
+$badoo-x: 532px;
+$badoo-y: 0px;
+$badoo-offset-x: -532px;
+$badoo-offset-y: 0px;
+$badoo-width: 512px;
+$badoo-height: 512px;
+$badoo-total-width: 2108px;
+$badoo-total-height: 2108px;
+$badoo-image: 'sprite.png';
+$badoo: (532px, 0px, -532px, 0px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'badoo', );
+$behance-name: 'behance';
+$behance-x: 1064px;
+$behance-y: 1064px;
+$behance-offset-x: -1064px;
+$behance-offset-y: -1064px;
+$behance-width: 512px;
+$behance-height: 512px;
+$behance-total-width: 2108px;
+$behance-total-height: 2108px;
+$behance-image: 'sprite.png';
+$behance: (1064px, 1064px, -1064px, -1064px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'behance', );
+$deviantart-name: 'deviantart';
+$deviantart-x: 0px;
+$deviantart-y: 532px;
+$deviantart-offset-x: 0px;
+$deviantart-offset-y: -532px;
+$deviantart-width: 512px;
+$deviantart-height: 512px;
+$deviantart-total-width: 2108px;
+$deviantart-total-height: 2108px;
+$deviantart-image: 'sprite.png';
+$deviantart: (0px, 532px, 0px, -532px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'deviantart', );
+$dribbble-name: 'dribbble';
+$dribbble-x: 532px;
+$dribbble-y: 532px;
+$dribbble-offset-x: -532px;
+$dribbble-offset-y: -532px;
+$dribbble-width: 512px;
+$dribbble-height: 512px;
+$dribbble-total-width: 2108px;
+$dribbble-total-height: 2108px;
+$dribbble-image: 'sprite.png';
+$dribbble: (532px, 532px, -532px, -532px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'dribbble', );
+$facebook-name: 'facebook';
+$facebook-x: 1064px;
+$facebook-y: 0px;
+$facebook-offset-x: -1064px;
+$facebook-offset-y: 0px;
+$facebook-width: 512px;
+$facebook-height: 512px;
+$facebook-total-width: 2108px;
+$facebook-total-height: 2108px;
+$facebook-image: 'sprite.png';
+$facebook: (1064px, 0px, -1064px, 0px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'facebook', );
+$flickr-name: 'flickr';
+$flickr-x: 1064px;
+$flickr-y: 532px;
+$flickr-offset-x: -1064px;
+$flickr-offset-y: -532px;
+$flickr-width: 512px;
+$flickr-height: 512px;
+$flickr-total-width: 2108px;
+$flickr-total-height: 2108px;
+$flickr-image: 'sprite.png';
+$flickr: (1064px, 532px, -1064px, -532px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'flickr', );
+$google-plus-name: 'google-plus';
+$google-plus-x: 0px;
+$google-plus-y: 1064px;
+$google-plus-offset-x: 0px;
+$google-plus-offset-y: -1064px;
+$google-plus-width: 512px;
+$google-plus-height: 512px;
+$google-plus-total-width: 2108px;
+$google-plus-total-height: 2108px;
+$google-plus-image: 'sprite.png';
+$google-plus: (0px, 1064px, 0px, -1064px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'google-plus', );
+$instagram-name: 'instagram';
+$instagram-x: 532px;
+$instagram-y: 1064px;
+$instagram-offset-x: -532px;
+$instagram-offset-y: -1064px;
+$instagram-width: 512px;
+$instagram-height: 512px;
+$instagram-total-width: 2108px;
+$instagram-total-height: 2108px;
+$instagram-image: 'sprite.png';
+$instagram: (532px, 1064px, -532px, -1064px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'instagram', );
+$lastfm-name: 'lastfm';
+$lastfm-x: 0px;
+$lastfm-y: 0px;
+$lastfm-offset-x: 0px;
+$lastfm-offset-y: 0px;
+$lastfm-width: 512px;
+$lastfm-height: 512px;
+$lastfm-total-width: 2108px;
+$lastfm-total-height: 2108px;
+$lastfm-image: 'sprite.png';
+$lastfm: (0px, 0px, 0px, 0px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'lastfm', );
+$linkedin-name: 'linkedin';
+$linkedin-x: 1596px;
+$linkedin-y: 0px;
+$linkedin-offset-x: -1596px;
+$linkedin-offset-y: 0px;
+$linkedin-width: 512px;
+$linkedin-height: 512px;
+$linkedin-total-width: 2108px;
+$linkedin-total-height: 2108px;
+$linkedin-image: 'sprite.png';
+$linkedin: (1596px, 0px, -1596px, 0px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'linkedin', );
+$pinterest-name: 'pinterest';
+$pinterest-x: 1596px;
+$pinterest-y: 532px;
+$pinterest-offset-x: -1596px;
+$pinterest-offset-y: -532px;
+$pinterest-width: 512px;
+$pinterest-height: 512px;
+$pinterest-total-width: 2108px;
+$pinterest-total-height: 2108px;
+$pinterest-image: 'sprite.png';
+$pinterest: (1596px, 532px, -1596px, -532px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'pinterest', );
+$soundcloud-name: 'soundcloud';
+$soundcloud-x: 1596px;
+$soundcloud-y: 1064px;
+$soundcloud-offset-x: -1596px;
+$soundcloud-offset-y: -1064px;
+$soundcloud-width: 512px;
+$soundcloud-height: 512px;
+$soundcloud-total-width: 2108px;
+$soundcloud-total-height: 2108px;
+$soundcloud-image: 'sprite.png';
+$soundcloud: (1596px, 1064px, -1596px, -1064px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'soundcloud', );
+$swarm-name: 'swarm';
+$swarm-x: 0px;
+$swarm-y: 1596px;
+$swarm-offset-x: 0px;
+$swarm-offset-y: -1596px;
+$swarm-width: 512px;
+$swarm-height: 512px;
+$swarm-total-width: 2108px;
+$swarm-total-height: 2108px;
+$swarm-image: 'sprite.png';
+$swarm: (0px, 1596px, 0px, -1596px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'swarm', );
+$tumblr-name: 'tumblr';
+$tumblr-x: 532px;
+$tumblr-y: 1596px;
+$tumblr-offset-x: -532px;
+$tumblr-offset-y: -1596px;
+$tumblr-width: 512px;
+$tumblr-height: 512px;
+$tumblr-total-width: 2108px;
+$tumblr-total-height: 2108px;
+$tumblr-image: 'sprite.png';
+$tumblr: (532px, 1596px, -532px, -1596px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'tumblr', );
+$twitter-name: 'twitter';
+$twitter-x: 1064px;
+$twitter-y: 1596px;
+$twitter-offset-x: -1064px;
+$twitter-offset-y: -1596px;
+$twitter-width: 512px;
+$twitter-height: 512px;
+$twitter-total-width: 2108px;
+$twitter-total-height: 2108px;
+$twitter-image: 'sprite.png';
+$twitter: (1064px, 1596px, -1064px, -1596px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'twitter', );
+$vk-name: 'vk';
+$vk-x: 1596px;
+$vk-y: 1596px;
+$vk-offset-x: -1596px;
+$vk-offset-y: -1596px;
+$vk-width: 512px;
+$vk-height: 512px;
+$vk-total-width: 2108px;
+$vk-total-height: 2108px;
+$vk-image: 'sprite.png';
+$vk: (1596px, 1596px, -1596px, -1596px, 512px, 512px, 2108px, 2108px, 'sprite.png', 'vk', );
+$spritesheet-width: 2108px;
+$spritesheet-height: 2108px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($badoo, $behance, $deviantart, $dribbble, $facebook, $flickr, $google-plus, $instagram, $lastfm, $linkedin, $pinterest, $soundcloud, $swarm, $tumblr, $twitter, $vk, );
+$spritesheet: (2108px, 2108px, 'sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
